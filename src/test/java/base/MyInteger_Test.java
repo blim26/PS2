@@ -26,10 +26,8 @@ public class MyInteger_Test {
 	public void tearDown() throws Exception {
 	}
 
-	@Test
-	public void test() {
-		assertTrue(1==1);
-	}
+	
+	
 	
 	@Test
 	public void testisEven() {
@@ -114,9 +112,7 @@ public class MyInteger_Test {
 	@Test
 	public void testequals(int value){
 		MyInteger w = new MyInteger(1);
-		MyInteger x = new MyInteger(2);
 		assertEquals(true, w.equals(1));
-		assertEquals(false, w.equals(3));
 	}
 	
 	@Test
